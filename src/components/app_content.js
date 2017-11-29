@@ -2,6 +2,7 @@ import React      from 'react'
 import Section    from './section'
 import AppFooter  from './app_footer'
 
+
 class AppContent extends React.Component {
 
     constructor( props ) {
@@ -29,8 +30,8 @@ class AppContent extends React.Component {
             <div className={ contentClass }>
 
                 <Section name="Home"      width={ width } />
-                <Section name="About"     width={ width } />
                 <Section name="Features"  width={ width } />
+                <Section name="About"     width={ width } />
                 <Section name="Gallery"   width={ width } />
                 <Section name="Demo"      width={ width } />
                 <Section name="Developer" width={ width } />

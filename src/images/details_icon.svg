@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227 276.65">
+  <defs>
+    <linearGradient id="linear-gradient" x1="113.5" y1="276.65" x2="113.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.07" stop-color="#0f94c9" stop-opacity="0.1"/>
+      <stop offset="0.15" stop-color="#0f94c9" stop-opacity="0.23"/>
+      <stop offset="0.31" stop-color="#0f94c9" stop-opacity="0.56"/>
+      <stop offset="0.5" stop-color="#0f94c9"/>
+      <stop offset="0.89" stop-color="#0f94c9"/>
+      <stop offset="0.95" stop-color="#0f94c9"/>
+    </linearGradient>
+  </defs>
+  <title>details_icon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path d="M44,45.15A13.33,13.33,0,1,1,30.7,58.48,13.35,13.35,0,0,1,44,45.15m0-8A21.33,21.33,0,1,0,65.38,58.48,21.34,21.34,0,0,0,44,37.15Z" style="fill: #0f94c9"/>
+      <path d="M91,45.15A13.33,13.33,0,1,1,77.65,58.48,13.35,13.35,0,0,1,91,45.15m0-8a21.33,21.33,0,1,0,21.34,21.33A21.34,21.34,0,0,0,91,37.15Z" style="fill: #0f94c9"/>
+      <path d="M137.94,45.15A13.33,13.33,0,1,1,124.6,58.48a13.36,13.36,0,0,1,13.34-13.33m0-8a21.33,21.33,0,1,0,21.35,21.33,21.34,21.34,0,0,0-21.35-21.33Z" style="fill: #0f94c9"/>
+      <path d="M184.89,45.15a13.33,13.33,0,1,1-13.34,13.33,13.36,13.36,0,0,1,13.34-13.33m0-8a21.33,21.33,0,1,0,21.35,21.33,21.34,21.34,0,0,0-21.35-21.33Z" style="fill: #0f94c9"/>
+      <path d="M91,92.07a13.33,13.33,0,1,1-13.34,13.32A13.34,13.34,0,0,1,91,92.07m0-8a21.33,21.33,0,1,0,21.34,21.32A21.33,21.33,0,0,0,91,84.07Z" style="fill: #0f94c9"/>
+      <path d="M91,139a13.33,13.33,0,1,1-13.34,13.33A13.35,13.35,0,0,1,91,139m0-8a21.33,21.33,0,1,0,21.34,21.33A21.34,21.34,0,0,0,91,131Z" style="fill: #0f94c9"/>
+      <path d="M184.89,92.07a13.33,13.33,0,1,1-13.34,13.32,13.35,13.35,0,0,1,13.34-13.32m0-8a21.33,21.33,0,1,0,21.35,21.32,21.33,21.33,0,0,0-21.35-21.32Z" style="fill: #0f94c9"/>
+      <polyline points="4 276.65 4 4 223 4 223 276.65" style="fill: none;stroke-miterlimit: 10;stroke-width: 8px;stroke: url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -125,7 +125,7 @@ class Home extends React.Component {
 }
 
 
-class About extends React.Component {
+class Features extends React.Component {
 
     constructor( props ) {
 
@@ -234,7 +234,7 @@ class About extends React.Component {
 }
 
 
-class Features extends React.Component {
+class About extends React.Component {
 
     constructor( props ) {
 

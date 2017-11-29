@@ -19,7 +19,7 @@ class AppHeader extends React.Component {
 
     render() {
 
-        const isMobile    = this.props.dims[ 0 ] < 993;
+        const isMobile = this.props.dims[ 0 ] < 993;
 
         return (
 
@@ -76,8 +76,8 @@ class AppHeader extends React.Component {
 
                             <ul>
                                 <MenuLink name="Home"      section={ this.props.section } changeSection={ this.props.changeSection } />
-                                <MenuLink name="About"     section={ this.props.section } changeSection={ this.props.changeSection } />
                                 <MenuLink name="Features"  section={ this.props.section } changeSection={ this.props.changeSection } />
+                                <MenuLink name="About"     section={ this.props.section } changeSection={ this.props.changeSection } />
                                 <MenuLink name="Gallery"   section={ this.props.section } changeSection={ this.props.changeSection } />
                                 <MenuLink name="Demo"      section={ this.props.section } changeSection={ this.props.changeSection } />
                                 <MenuLink name="Developer" section={ this.props.section } changeSection={ this.props.changeSection } />

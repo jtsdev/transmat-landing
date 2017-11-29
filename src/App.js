@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-
-import AppHeader  from './components/app_header'
-import AppContent from './components/app_content'
-
+import React,
+       { Component } from 'react';
+import AppHeader     from './components/app_header'
+import AppContent    from './components/app_content'
 import './App.css';
 
 
@@ -53,8 +52,8 @@ class App extends Component {
         let name;
 
              if ( current < starts[ 1 ] ) { name = 'Home'      }
-        else if ( current < starts[ 2 ] ) { name = 'About'     }
-        else if ( current < starts[ 3 ] ) { name = 'Features'  }
+        else if ( current < starts[ 2 ] ) { name = 'Features'  }
+        else if ( current < starts[ 3 ] ) { name = 'About'     }
         else if ( current < starts[ 4 ] ) { name = 'Gallery'   }
         else if ( current < starts[ 5 ] ) { name = 'Demo'      }
                                      else { name = 'Developer' }
