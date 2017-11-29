@@ -7,20 +7,41 @@ This website is the landing page for the web application [Transmat](https://dest
  ## Composable Components
  
  ### Responsive Navigation
+
  <table>
  <tr>
  <td>
  
- ![](src/images/tl_nav_small.png) ![](src/images/tl_nav_panel.png)
+ ![](src/images/tl_nav_panel.png)
+ 
  </td>
  </tr>
  </table>
  
  ### Accordion
+
+ <table>
+ <tr>
+ <td>
+  
  ![](src/images/tl_accordion.png)
  
+ </td>
+ </tr>
+ </table>
+ 
  ### Slider
+ 
+ <table>
+ <tr>
+ <td>
+   
  ![](src/images/tl_slider.png)
+ 
+ </td>
+ </tr>
+ </table>
+ 
  
  ## Built With
  [ES6](https://github.com/lukehoban/es6features "ES6 Overview - GitHub") - Latest version of ECMAScript; adds powerful new JavaScript features such as module loading, arrow functions, and classes.
