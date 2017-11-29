@@ -76,13 +76,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$USER_HOME$/Desktop/Transmat-React Trim/AnimationDirectory.js" />
-        <option value="$PROJECT_DIR$/src/components/app_footer.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/slider.js" />
         <option value="$PROJECT_DIR$/src/components/app_header.js" />
         <option value="$PROJECT_DIR$/src/components/section.js" />
         <option value="$PROJECT_DIR$/src/components/app_content.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/app_footer.js" />
       </list>
     </option>
   </component>
@@ -227,15 +227,15 @@
       <workItem from="1509559317500" duration="33065000" />
       <workItem from="1509652977962" duration="12588000" />
       <workItem from="1509719697804" duration="45231000" />
-      <workItem from="1511902678128" duration="5101000" />
+      <workItem from="1511902678128" duration="5272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95985000" />
+    <option name="totallyTimeSpent" value="96156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="54" width="1377" height="763" extended-state="1" />
+    <frame x="53" y="54" width="1377" height="763" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16224189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -275,7 +275,7 @@
         <state relative-caret-position="405">
           <caret line="87" column="19" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="87" selection-end-column="19" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#onChangeSection#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#updateDimensions#0;n#App#0" expanded="false" />
@@ -295,7 +295,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
             <element signature="n#Section#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#Section#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#Section#0" expanded="false" />
@@ -532,7 +532,7 @@
         <state relative-caret-position="600">
           <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#onChangeSection#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#updateDimensions#0;n#App#0" expanded="false" />
@@ -552,7 +552,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
             <element signature="n#Section#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#Section#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#Section#0" expanded="false" />
@@ -789,7 +789,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#onChangeSection#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#updateDimensions#0;n#App#0" expanded="false" />
@@ -809,7 +809,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
             <element signature="n#Section#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#Section#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#Section#0" expanded="false" />
@@ -1144,18 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app_footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#AppFooter#0" expanded="false" />
-            <element signature="n#!!block;n#handleClick#0;n#AppFooter#0" expanded="false" />
-            <element signature="n#!!block;n#render#0;n#AppFooter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1469,7 +1457,7 @@
         <state relative-caret-position="90">
           <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
             <element signature="n#Section#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#Section#0" expanded="false" />
             <element signature="n#!!block;n#getSectionContent#0" expanded="false" />
@@ -1502,7 +1490,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
             <element signature="n#AppContent#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#AppContent#0" expanded="false" />
             <element signature="n#!!block;n#handleClick#0;n#AppContent#0" expanded="false" />
@@ -1541,7 +1529,7 @@
         <state relative-caret-position="210">
           <caret line="161" column="19" lean-forward="true" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
             <element signature="n#App#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#onChangeSection#0;n#App#0" expanded="false" />
@@ -1553,6 +1541,19 @@
             <element signature="n#!!block;n#componentWillUnmount#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#render#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#sectionToTop#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app_footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="n#AppFooter#0" expanded="false" />
+            <element signature="n#!!block;n#constructor#0;n#AppFooter#0" expanded="false" />
+            <element signature="n#!!block;n#handleClick#0;n#AppFooter#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#AppFooter#0" expanded="false" />
           </folding>
         </state>
       </provider>
