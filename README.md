@@ -7,7 +7,14 @@ This website is the landing page for the web application [Transmat](https://dest
  ## Composable Components
  
  ### Responsive Navigation
+ <table>
+ <tr>
+ <td>
+ 
  ![](src/images/tl_nav_small.png) ![](src/images/tl_nav_panel.png)
+ </td>
+ </tr>
+ </table>
  
  ### Accordion
  ![](src/images/tl_accordion.png)
