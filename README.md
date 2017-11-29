@@ -2,7 +2,7 @@
 # Transmat - Landing Page
 ![](src/images/tl_home.png)
 
-This website is the landing page for the web application[Transmat](https://destinytransmat.com "Transmat - Destiny Companion"). It serves to educate users about the app, as well as provide a launch link for its live and demo versions. 
+This website is the landing page for the web application [Transmat](https://destinytransmat.com "Transmat - Destiny Companion"). It serves to educate users about the app, as well as provide a launch link for its live and demo versions. 
   
  ##Composable Components
  
