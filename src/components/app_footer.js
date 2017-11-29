@@ -37,8 +37,8 @@ class AppFooter extends React.Component {
                     </a>
                     <div className="footer_links">
                         <a href="#" onClick={ ( e ) => this.handleClick( e, 'Home'      ) }>Home</a>
-                        <a href="#" onClick={ ( e ) => this.handleClick( e, 'Features'  ) }>About</a>
-                        <a href="#" onClick={ ( e ) => this.handleClick( e, 'About'     ) }>Features</a>
+                        <a href="#" onClick={ ( e ) => this.handleClick( e, 'Features'  ) }>Features</a>
+                        <a href="#" onClick={ ( e ) => this.handleClick( e, 'About'     ) }>About</a>
                         <a href="#" onClick={ ( e ) => this.handleClick( e, 'Gallery'   ) }>Gallery</a>
                         <a href="#" onClick={ ( e ) => this.handleClick( e, 'Demo'      ) }>Demo</a>
                         <a href="#" onClick={ ( e ) => this.handleClick( e, 'Developer' ) }>Developer</a>
