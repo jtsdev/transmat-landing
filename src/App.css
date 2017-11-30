@@ -609,6 +609,7 @@ p {
 
   /* About */
 
+
     .about_content {
       height: inherit;
     }
@@ -674,6 +675,8 @@ p {
 
 
   /* Features */
+
+
 
     .align_block {
       position: relative;
@@ -775,7 +778,6 @@ p {
 
 
   /* Gallery */
-
 
     .gallery_content .section_header {
       padding-bottom: 0;
@@ -1108,6 +1110,14 @@ p {
   }
   .top_app_image img:nth-child( 1 ) {
     width: 65%;
+  }
+
+  .section.Features {
+    padding: 20px 0 0;
+  }
+
+  .section.About, .section.Gallery, .section.Demo {
+    height: 100vmin;
   }
 
 }

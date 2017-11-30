@@ -300,7 +300,7 @@ class About extends React.Component {
                                     <h2 className="h2 caption_style_1 left_separator">Why Transmat?</h2>
                                     <div className="header_text sm">
                                         <p>
-                                            With Transmat, there's no need to scroll through hundreds of items to find what you're looking for.  It provides a unique way to handle your inventory in Destiny:
+                                            Transmat makes it simple to find any item on your account, right from your character's inventory:
                                         </p>
                                     </div>
 
@@ -517,15 +517,15 @@ class Developer extends React.Component {
      const accordionArray = [
 
             {
-                title: 'Choose an Item Slot',
+                title: 'Type',
                 text:  'Clicking a slot will reveal the items the character currently holds of that type, as well as a selection of subtype buttons.  For weapon slots, the subtypes are different weapon classes.  For armor slots, the subtypes are the three character classes.'
             },
             {
-                title: 'Choose an Item Subtype',
+                title: 'Subtype',
                 text:  'Clicking a subtype button will show every item of that subtype that is currently stored ( on another character or in the vault ).  In this way, any item on the account can be found in two quick clicks.'
             },
             {
-                title: 'Choose an Item',
+                title: 'Actions',
                 text:  'Clicking an item will bring up a summary and its different options for transfer.  The summary card can also be clicked to expand a full overview of the item.'
             }
 
