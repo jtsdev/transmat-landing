@@ -1,7 +1,7 @@
 
 # Transmat - Landing Page
 
-This [landing page](https://destinytransmat.com/about "Transmat - Destiny Companion") serves as a resource site for the web application [Transmat](https://destinytransmat.com "Transmat - Destiny Companion"), providing a launch point, an interface demo, and a general overview of the app.
+This [landing page](https://destinytransmat.com/about "Transmat - Destiny Companion") serves as a resource site for the web application [Transmat](https://destinytransmat.com "Transmat - Destiny Companion"), providing a launch point, interface demo, and general overview of the app.
 
 ![](src/images/tl_home.png)
 
@@ -19,7 +19,7 @@ This [landing page](https://destinytransmat.com/about "Transmat - Destiny Compan
  </tr>
  </table>
  
- ### Interactive App Walkthrough
+ ### Accordion App Walkthrough
 
  <table>
  <tr>
