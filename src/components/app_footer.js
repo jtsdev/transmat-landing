@@ -17,6 +17,7 @@ class AppFooter extends React.Component {
 
         e.preventDefault();
 
+        document.querySelector( '.menu_link.active' ).classList.remove( 'active' );
         this.props.changeSection( name )
 
     }

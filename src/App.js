@@ -64,6 +64,46 @@ class App extends Component {
 
     }
 
+    scrollWatch() {
+
+        let sectionStarts = {},
+            i = 0;
+
+        // Gather Sections
+            const section = document.querySelectorAll(".section");
+
+        // Max Scroll for 'Developer' Section (doesn't reach top)
+            const docEl = document.documentElement;
+            const max   = docEl.scrollHeight - docEl.clientHeight;
+
+        Array.prototype.forEach.call( section, function( e ) {
+
+            sectionStarts[ e.id ] = e.id !== 'Developer' ? e.offsetTop : max;
+
+        });
+
+        window.onscroll = function() {
+
+            let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+            for ( i in sectionStarts ) {
+                if ( sectionStarts[ i ] <= scrollPosition ) {
+
+                    // Reset Active Link
+                        if ( document.querySelector( '.menu_link.active' ) ) {
+                            document.querySelector( '.menu_link.active' ).classList.remove( 'active' ); }
+
+                    // Set Active Link
+                        document.querySelector('a[href*=' + i + ']').setAttribute('class', 'menu_link active');
+
+                }
+
+            }
+
+        };
+
+    }
+
     componentWillMount() {
 
         this.updateDimensions();
@@ -72,32 +112,9 @@ class App extends Component {
 
     componentDidMount() {
 
-        let isScrolling;
-        const checkSection = this.checkSection;
+        this.scrollWatch();
 
         window.addEventListener( "resize", this.updateDimensions );
-
-        window.addEventListener( "scroll", function() {
-
-            window.clearTimeout( isScrolling );
-            isScrolling = setTimeout( function() {
-                checkSection();
-            }, 66 );
-
-        }, false );
-
-        const sections = document.querySelector( '.app_content' ).childNodes;
-        const docEl    = document.documentElement;
-        const max      = docEl.scrollHeight - docEl.clientHeight;
-
-        this.setState({
-            sectionStarts: [ sections[ 0 ].offsetTop,
-                             sections[ 1 ].offsetTop,
-                             sections[ 2 ].offsetTop,
-                             sections[ 3 ].offsetTop,
-                             sections[ 4 ].offsetTop,
-                             max ]
-        })
 
     }
 

@@ -135,7 +135,7 @@ class AppHeader extends React.Component {
 
                 <div className="mobile_nav_menu">
 
-                    <a href="#" className="burger-menu vertical-align right" onClick={ ( e ) => this.handleClick( e ) }>
+                    <a className="burger-menu vertical-align right" onClick={ ( e ) => this.handleClick( e ) }>
                         <i />
                     </a>
                     <a href="index.html" className="logo vertical-align auto">
@@ -191,7 +191,7 @@ class AppHeader extends React.Component {
             return (
 
                 <li>
-                    <a className={ linkClass } onClick={ ( e ) => this.handleClick( e, this.props.name, this.props.changeSection ) }>{ this.props.name }</a>
+                    <a className={ linkClass } href={ '#' + this.props.name } onClick={ ( e ) => this.handleClick( e, this.props.name, this.props.changeSection ) }>{ this.props.name }</a>
                 </li>
 
             )

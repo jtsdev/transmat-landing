@@ -24,7 +24,7 @@ class Section extends React.Component {
 
         return (
 
-            <section className={ sectionClass }>
+            <section className={ sectionClass } id={ name }>
                 {
                     sectionContent
                 }
