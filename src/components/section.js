@@ -104,6 +104,7 @@ class Features extends React.Component {
     this.state = {};
 
     this.handleClick = this.handleClick.bind(this);
+
   }
 
   handleClick() { }
