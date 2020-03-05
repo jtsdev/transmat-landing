@@ -73,7 +73,7 @@ class Home extends React.Component {
                     <h3 className="h3">Destiny 2 Companion App</h3>
                     <div className="button_container">
                       <a
-                        href="https://jtsdev.github.io/transmat-landing"
+                        href="https://jtsdev.github.io/transmat-react"
                         className="link_style_1 launch"
                       >
                         <span>Launch App</span>
