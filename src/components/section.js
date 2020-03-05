@@ -11,7 +11,7 @@ class Section extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   render() {
     const name = this.props.name;
@@ -55,7 +55,7 @@ class Home extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   render() {
     return (
@@ -73,7 +73,7 @@ class Home extends React.Component {
                     <h3 className="h3">Destiny 2 Companion App</h3>
                     <div className="button_container">
                       <a
-                        href="https://destinytransmat.com"
+                        href="https://jtsdev.github.io/transmat-landing"
                         className="link_style_1 launch"
                       >
                         <span>Launch App</span>
@@ -106,7 +106,7 @@ class Features extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   render() {
     const width = window.innerWidth;
@@ -207,7 +207,7 @@ class About extends React.Component {
     this.setActive = this.setActive.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   setActive(activeId) {
     this.setState({
@@ -278,7 +278,7 @@ class Gallery extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   render() {
     return (
@@ -306,7 +306,7 @@ class Demo extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   render() {
     return (
@@ -342,7 +342,7 @@ class Demo extends React.Component {
                     <li>Item transfers disabled.</li>
                   </ul>
                   <a
-                    href="https://destinytransmat.com/demo"
+                    href="https://jtsdev.github.io/transmat-react"
                     className="link_style_1 launch demo"
                   >
                     <span>Launch Demo</span>
@@ -366,7 +366,7 @@ class Developer extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {}
+  handleClick() { }
 
   render() {
     return (
